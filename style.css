@@ -6,7 +6,7 @@ h1{
     font-size: 50px;
 }
 h2{
-    margin-top: 30%;
+    margin-top: 0%;
     font-size: 30px;
 }
 p{
@@ -19,7 +19,7 @@ p{
 }
 section{
     height: 700px;
-    padding-bottom: 150px;
+    padding-bottom: 0px;
 }
 .name-highlight{
     color: crimson;
@@ -49,10 +49,17 @@ section{
 .biography{
     background-image: url("personal website resources/biography-bg.png");
     background-repeat: no-repeat;
+    background-size: 140;
+}
+#text-center{
+        text-align: center;
+}
+.my-latest-work{
     background-size: 100%;
 }
-#mylatestwork{
-        text-align: center;
+.my-latest-work img{
+    background-image: url("personal website resources/latest-work-bg.png");
+    background-repeat: no-repeat;
 }
 .three-width{
     width: 30%;
@@ -70,18 +77,33 @@ section{
 }
 .what-clint-are-say img{
     width: 100%;
-    
+
 }
 .border{
+    
     border: 1px solid pink;
-    background-color: red;
+    background-color:rgb(150, 31, 31);
     
 }
 .what-clint-are-say img{
-    background-image: url("personal website resource/footer-bg");
-    background-repeat: no repeat;
+    background-image: url("personal website resources/biography-bg.png");
+    background-repeat: no-repeat;
 }
 #foot{
     text-align: center;
     margin-top: 100px;
+}
+.box{
+    height: 100px;
+    width: 800px;
+    border: 1px solid crimson;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding: 2%;
+    background-image: linear-gradient(45deg, rgb(252, 74, 4), rgb(240, 50, 16)    );
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
