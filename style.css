@@ -1,12 +1,13 @@
-#name-color{
-    color: brown;
+.name-highlight{
+    color: crimson;
 }
 .half-width{
-    width: 40%;
+    width: 20%;
     float: left;
-    margin-left: 5%;
-    padding-left: 2%;
 }
 .half-width img{
     width: 100%;
+}
+.link-button{
+    
 }
