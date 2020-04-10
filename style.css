@@ -1,13 +1,87 @@
+body{
+    margin: 0;
+    font-family: 'Comic Neue', cursive;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    margin-top: 30%;
+    font-size: 30px;
+}
+p{
+    color: dimgray;
+}
+.top-banner{
+    background-image: url("Personal website resources/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+section{
+    height: 700px;
+    padding-bottom: 150px;
+}
 .name-highlight{
     color: crimson;
 }
 .half-width{
-    width: 20%;
+    width: 35%;
     float: left;
+    padding-left: 2px;
+    margin-left: 10%;
+    margin-top: 10%;
+    
+    
 }
 .half-width img{
     width: 100%;
+    margin-left: 10%;
 }
 .link-button{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: powderblue;
+    background-image: linear-gradient(45deg, lightsalmon, tomato
+    );
     
+}
+.biography{
+    background-image: url("personal website resources/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#mylatestwork{
+        text-align: center;
+}
+.three-width{
+    width: 30%;
+    float: left;
+
+}
+.three-width img{
+    width: 100%;
+    margin-left: 10%;
+}
+.what-clint-are-say{
+    text-align: center;
+    background-image: url("personal website resources/footer-bg.png");
+    background-repeat: no-repeat;
+}
+.what-clint-are-say img{
+    width: 100%;
+    
+}
+.border{
+    border: 1px solid pink;
+    background-color: red;
+    
+}
+.what-clint-are-say img{
+    background-image: url("personal website resource/footer-bg");
+    background-repeat: no repeat;
+}
+#foot{
+    text-align: center;
+    margin-top: 100px;
 }
