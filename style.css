@@ -13,7 +13,7 @@ p{
     color: dimgray;
 }
 .top-banner{
-    background-image: url("Personal website resources/header-bg.png");
+    background-image: url("Personal-website-resources/header-bg.png");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -29,9 +29,7 @@ section{
     float: left;
     padding-left: 2px;
     margin-left: 10%;
-    margin-top: 10%;
-    
-    
+    margin-top: 10%;   
 }
 .half-width img{
     width: 100%;
@@ -47,7 +45,7 @@ section{
     
 }
 .biography{
-    background-image: url("personal website resources/biography-bg.png");
+    background-image: url("personal-website-resources/biography-bg.png");
     background-repeat: no-repeat;
     background-size: 140;
 }
@@ -56,11 +54,12 @@ section{
 }
 .my-latest-work{
     background-size: 100%;
-}
-.my-latest-work img{
-    background-image: url("personal website resources/latest-work-bg.png");
+    background-image: url("personal-website-resources/latest-work-bg.png");
     background-repeat: no-repeat;
+    background-size: 100%;
+
 }
+
 .three-width{
     width: 30%;
     float: left;
@@ -70,28 +69,16 @@ section{
     width: 100%;
     margin-left: 10%;
 }
-.what-clint-are-say{
-    text-align: center;
-    background-image: url("personal website resources/footer-bg.png");
-    background-repeat: no-repeat;
-}
-.what-clint-are-say img{
-    width: 100%;
 
-}
-.border{
+.box{
+    height: 100px;
+    width: 800px;
+    border: 1px solid crimson;
     
-    border: 1px solid pink;
-    background-color:rgb(150, 31, 31);
-    
-}
-.what-clint-are-say img{
-    background-image: url("personal website resources/biography-bg.png");
-    background-repeat: no-repeat;
-}
-#foot{
-    text-align: center;
-    margin-top: 100px;
+    margin-left: 20%;
+    padding: 2%;
+    background-image: linear-gradient(45deg, rgb(252, 74, 4), rgb(240, 50, 16)    );
+    border-radius: 5px;
 }
 .box{
     height: 100px;
@@ -102,8 +89,16 @@ section{
     padding: 2%;
     background-image: linear-gradient(45deg, rgb(252, 74, 4), rgb(240, 50, 16)    );
     border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
 }
+#foot{
+    text-align: center;
+    margin-top: 100px;
+}
+.whatclintaresay{
+    background-image: url("Personal-website-resources/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    
+}
+
